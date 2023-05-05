@@ -1,0 +1,76 @@
+/* All scripts are made by masska
+Visit it on github: https://github.com/MASSKAgithub/Youtube-SHOUTOUT-WALL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+@font-face {
+    font-family: "headfont";
+    src: url("https://cdn.glitch.com/4a2ff7ee-5ae6-479f-b43d-3ec683f2e274%2FCaviarDreams_Bold.ttf?v=1569502953620");
+}
+.odometer {
+    font-size: 25px;
+    font-family : headfont;
+}
+#channel_0 {
+    background-color: #525252;
+    transition: 5s;
+    border: solid 8px;
+    animation: rainbow 30s linear infinite;
+  
+}
+
+@keyframes rainbow {
+  0% { border-color: #e81010 }
+  10% { border-color: #e4e810 }
+  20% { border-color: #4ae810 }
+  30% { border-color: #02a62d }
+  40% { border-color: #0ec4be }
+  50% { border-color: #0e54c4 }
+  30% { border-color: #750ec4 }
+  70% { border-color: #c40ea6 }
+  80% { border-color: #c40e5d }
+  90% { border-color: #e6830b }
+  100% { border-color: #8ee60b }
+}
+
+.card {
+    display: inline-block;
+    width: 275px;
+    margin: 10px;
+    height: 88px;
+    background-color: #525252;
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 55px;
+}
+.picture {
+    display: inline-block;
+}
+.logo {
+    width: 88px;
+    height: 88px;
+    margin: -2px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 55px;
+}
+.texte {
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.name {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* All scripts are made by masska
+Visit it on github: https://github.com/MASSKAgithub/Youtube-SHOUTOUT-WALL */

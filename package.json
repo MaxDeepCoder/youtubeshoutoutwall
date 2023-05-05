@@ -1,0 +1,16 @@
+{
+  "name": "youtube-shoutout-wall",
+  "version": "1.0.0",
+  "description": "A free youtube shoutout wall made by MASSKA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "MASSKA",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  }
+}
